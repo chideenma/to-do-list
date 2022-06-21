@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <title>TO DO LIST</title>
+</head>
+
+<body>
+    <div class="app">
+        <div class="container">
+            <div class="container-right">
+                <div class="container-right-content">
+                    <button>FOR 25% OFF</button>
+                    <h1>type your grocery list</h1>
+                    <p>build your online presence. make an impact</p>
+                    <span>made by Chidinma</span>
+                </div>
+            </div>
+            <div class="container-left">
+                <div class="container-left-content">
+                    <form>
+                        <label></label><br>
+                        <input type="text" placeholder="Write your grocery" id="item-form"><br>
+                        <label></label><br>
+                        <input type="numbers" placeholder="Write your price" id="price-form">
+                    </form>
+                    <button id="submit-btn" onclick="submit()">Submit</button>
+                    </div>
+                </div>
+                    <div class="table-container" style='overflow-x:auto'>
+                        <table class="table" id="list-item">
+                            <tr class="table-header">
+                              <th>Items</th>
+                              <th>price</th>
+                              <th>Action</th>
+                            </tr>
+                      </table> 
+                </div>
+        </div>
+    </div>
+</body>
+<script src="./assets/index.js"></script>
+</html>
